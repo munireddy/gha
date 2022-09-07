@@ -7,6 +7,6 @@ jobs:
   build-and-test-job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/cehckout@v2
+      - uses: actions/checkout@v2
       - run: gcc hw.c
       - run: ./a.out
